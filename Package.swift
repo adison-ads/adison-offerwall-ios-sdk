@@ -9,7 +9,10 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "AdisonOfferwallSDK",
-            targets: ["AdisonOfferwallSDK"]),
+            targets: [
+                "AdisonOfferwallSDK"
+            ]
+        ),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -20,7 +23,8 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "AdisonOfferwallSDK",
-            url: "https://github.com/adison-ads/adison-offerwall-ios-sdk/releases/download/v2.5.60/AdisonOfferwallSDK.zip",
-            checksum: "a7482b99330589c1e5413d75a9851399d6579665398598be78e629d83040925c")
+            url: "https://github.com/adison-ads/adison-offerwall-ios-sdk/releases/download/v3.1.48/AdisonOfferwallSDK.zip",
+            checksum: "6392bed22a3bb233f3a581971b876b06c40e815734966615f0d3cdbd1a046459"
+        )
     ]
 )
