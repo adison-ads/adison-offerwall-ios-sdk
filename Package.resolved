@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "adison-offerwall-lumberjack",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/adison-ads/adison-offerwall-lumberjack",
+      "state" : {
+        "revision" : "d4393f019bde44955742a80c1dfbf0d2c493d01d",
+        "version" : "0.9.2"
+      }
+    }
+  ],
+  "version" : 2
+}
