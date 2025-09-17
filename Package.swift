@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AdisonOfferwallSDK",
-            url: "https://github.com/adison-ads/adison-offerwall-ios-sdk/releases/download/2.3.6/AdisonOfferwallSDK.zip",
-            checksum: "bab50b893537dc67a2b5f6d8c08d7ce4b5fd1c0ffb54b2d24464d8804544c777"
+            url: "https://github.com/adison-ads/adison-offerwall-ios-sdk/releases/download/2.3.8/AdisonOfferwallSDK.zip",
+            checksum: "e368709068e02b088df6db38648aa1ffc91ab813ce41e1fa9507a3b38167148f"
         )
     ]
 )
