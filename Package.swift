@@ -3,9 +3,9 @@
 import PackageDescription
 
 let repoURL = "https://github.com/adison-ads/adison-offerwall-ios-sdk/releases/download"
-let artifactVersion = "5.0.4"
+let artifactVersion = "5.0.6"
 let artifactName = "AdisonOfferwallSDK.zip"
-let checksum = "96812c6384caf5b09570a83574bedba42c66a9c6724c976a19a4c41329dae105"
+let checksum = "d50e66441a686c1a84ebecd4f4fe88ae5495e01704da588700b3d3d84d7b386e"
 
 let lumberjackVersion = "0.9.14"
 let webVersion = "1.0.2"
