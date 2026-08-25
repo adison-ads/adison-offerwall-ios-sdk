@@ -1,14 +1,13 @@
 // swift-tools-version:5.7
 
+// swift-format-ignore-file
+
 import PackageDescription
 
 let repoURL = "https://github.com/adison-ads/adison-offerwall-ios-sdk/releases/download"
-let artifactVersion = "5.3.2"
+let artifactVersion = "5.3.4"
 let artifactName = "AdisonOfferwallSDK.zip"
-let checksum = "33c33107c1f833d6d8f094546a3b2e1f0154b8078015285434ead3959dc87fe8"
-
-let lumberjackVersion = "0.9.14"
-let webVersion = "1.0.8"
+let checksum = "abf0f4a24fb1f7ad8343fe3cf780c66a0987cb0518af7ced3cdbf5666f04f53e"
 
 // MARK: - Do not change.
 let package = Package(
@@ -25,11 +24,11 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/adison-ads/adison-offerwall-lumberjack",
-            exact: Version(stringLiteral: lumberjackVersion)
+            from: "0.9.14"
         ),
         .package(
             url: "https://github.com/adison-ads/adison-offerwall-web",
-            exact: Version(stringLiteral: webVersion)
+            from: "1.1.0"
         )
     ],
     targets: [
